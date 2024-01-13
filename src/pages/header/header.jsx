@@ -1,11 +1,10 @@
 "use client";
-
 import { Button, Navbar } from "flowbite-react";
 
 export default function Head() {
   return (
     <Navbar id="top" fluid rounded>
-      <Navbar.Brand href="https://flowbite-react.com">
+      <Navbar.Brand href="https://comingsoon07.netlify.app">
         <img
           src="https://i.ibb.co/y02CJGX/favicon.jpg"
           className="mr-3 h-6 sm:h-9"
