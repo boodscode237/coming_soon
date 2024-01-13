@@ -1,0 +1,57 @@
+import React from "react";
+
+const modelLinks = [
+  {
+    href: "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html",
+    text: "Linear Regression",
+    colorClass: "decoration-red-500",
+  },
+  {
+    href: "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html",
+    text: "Ridge Regression",
+    colorClass: "decoration-purple-500",
+  },
+  {
+    href: "https://scikit-learn.org/stable/auto_examples/neighbors/plot_regression.html",
+    text: "KNN",
+    colorClass: "decoration-blue-500",
+  },
+  {
+    href: "https://catboost.ai/",
+    text: "CatBoost—based",
+    colorClass: "decoration-green-500",
+  },
+];
+
+const ModelEvaluation = () => {
+  return (
+    <div className="max-w-screen-md mb-8 lg:mb-16">
+      <h2 className="mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+        In evaluating the performance of various regression models—{" "}
+        {modelLinks.map((link, index) => (
+          <a
+            key={index}
+            href={link.href}
+            className={`font-semibold text-gray-900 underline dark:text-white ${link.colorClass}`}
+          >
+            {link.text}
+          </a>
+        ))}
+        on{" "}
+        <a
+          href="https://www.rabota.ru"
+          className="font-semibold text-gray-900 underline dark:text-white decoration-green-500"
+        >
+          Mean Absolute Percentage Error (MAPE)
+        </a>
+        , the choice of the best model becomes evident when considering the
+        practical implications of minimizing prediction errors.
+      </h2>
+      <p className="text-gray-500 sm:text-xl dark:text-gray-400">
+        The model selection rationale is as follows:
+      </p>
+    </div>
+  );
+};
+
+export default ModelEvaluation;
