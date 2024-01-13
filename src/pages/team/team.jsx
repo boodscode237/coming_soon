@@ -14,7 +14,7 @@ const members = [
     role: "Machine Learning Engineer",
     description:
       "Van implemented and fine-tuned machine learning models such as CatBoost, Ridge Regression, KNN, and Linear Regression. Conducted hyperparameter tuning to optimize model performance and enhance prediction accuracy.",
-    imgUrl: "https://i.ibb.co/zS6Fn3k/photo-2024-01-13-19-18-57.jpg",
+    imgUrl: "https://i.ibb.co/5TVCqp7/IMG-20240114-024949-903.jpg",
     linkedin: "",
     github: "https://github.com/gdnjr5233",
     discord: "https://discord.com/channels/1170049656366039153",
