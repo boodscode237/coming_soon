@@ -34,7 +34,7 @@ const members = [
     role: "Software Developer / Data Scientist",
     description:
       "He developed the front-end interface to interact with the machine learning model, ensuring a seamless user experience. Integrated the model predictions into the web application for practical use. He also assisted the other technicians in searching for answers in lots of ways.",
-    imgUrl: "https://i.ibb.co/NC2rB3M/photo-1.png",
+    imgUrl: "https://i.ibb.co/7zpwZVm/mv-Mdf-Ond-P-4.jpg",
     linkedin: "https://www.linkedin.com/in/brice-abodo/",
     github: "https://github.com/boodscode237",
     discord: "https://discord.com/channels/1170049656366039153",
